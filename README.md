@@ -31,8 +31,3 @@ Sometimes life doesn’t fit neatly into one app or one format. OniqHub was crea
 OniqHub is not about being polished or commercial.
 It’s about having a creative sandbox — a hub to keep the small, random, and personal things that matter in daily life.
 
----
-
-## 🌐 Live Site
-
-Visit here: [OniqHub on GitHub Pages](https://your-username.github.io/OniqHub)
