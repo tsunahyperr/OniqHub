@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/oniqhub/static/css/main.c2f88b9e.css",
-    "main.js": "/oniqhub/static/js/main.9e2e1c7f.js",
-    "index.html": "/oniqhub/index.html",
-    "main.c2f88b9e.css.map": "/oniqhub/static/css/main.c2f88b9e.css.map",
-    "main.9e2e1c7f.js.map": "/oniqhub/static/js/main.9e2e1c7f.js.map"
+    "main.css": "/OniqHub/static/css/main.c2f88b9e.css",
+    "main.js": "/OniqHub/static/js/main.9e2e1c7f.js",
+    "index.html": "/OniqHub/index.html",
+    "main.c2f88b9e.css.map": "/OniqHub/static/css/main.c2f88b9e.css.map",
+    "main.9e2e1c7f.js.map": "/OniqHub/static/js/main.9e2e1c7f.js.map"
   },
   "entrypoints": [
     "static/css/main.c2f88b9e.css",
