@@ -1,0 +1,86 @@
+.day-box {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  font-size: 1.1rem;
+  position: relative;
+  user-select: none;
+}
+
+.day-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.day-box.completed {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border-color: #059669;
+}
+
+.day-box.completed::after {
+  content: '✓';
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.day-box.selected {
+  background: #f7a049;
+  color: white;
+  border-color: #ea580c;
+  box-shadow: 0 8px 16px rgba(247, 160, 73, 0.4);
+}
+
+.day-box:not(.completed):not(.selected) {
+  background: #fff7ed;
+  color: #1f2937;
+  border: 2px solid #fed7aa;
+}
+
+.meal-card {
+  transition: all 0.2s ease;
+}
+
+.meal-card:hover {
+  transform: translateX(4px);
+}
+
+.menu-list-container {
+  scrollbar-width: thin;
+  scrollbar-color: #f7a049 #f3f4f6;
+}
+
+.menu-list-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.menu-list-container::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 10px;
+}
+
+.menu-list-container::-webkit-scrollbar-thumb {
+  background: #f7a049;
+  border-radius: 10px;
+}
+
+.stats-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 640px) {
+  .day-box {
+    font-size: 0.9rem;
+  }
+}
